@@ -39,8 +39,8 @@ class App extends React.Component {
     render() {
       return (
         <div>
-          <QuoteCard simpsons={this.state.simpsons} />
           <button type="button" onClick={this.getQuotes}>Get a new quote</button>
+          <QuoteCard simpsons={this.state.simpsons} />
           </div>
       );
     }
